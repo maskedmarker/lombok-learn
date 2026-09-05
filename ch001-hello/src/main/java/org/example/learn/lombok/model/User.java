@@ -1,12 +1,8 @@
 package org.example.learn.lombok.model;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.Data;
 
-@Getter
-@Builder
-@ToString
+@Data
 public class User {
 
     private String name;
